@@ -1,0 +1,5 @@
+using Futurum.ApiEndpoint;
+
+namespace Futurum.EventApiEndpoint.Metadata;
+
+public record MetadataEventDefinition(IMetadataDefinition MetadataSubscriptionEventDefinition, MetadataTypeDefinition MetadataTypeDefinition);

@@ -1,0 +1,3 @@
+namespace Futurum.EventApiEndpoint.Metadata;
+
+public record MetadataTypeDefinition(Type EventApiEndpointExecutorServiceType);

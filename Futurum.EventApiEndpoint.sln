@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futurum.EventApiEndpoint", "src\Futurum.EventApiEndpoint\Futurum.EventApiEndpoint.csproj", "{18F6F56C-2BC6-457A-9418-B86C281FB82B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{729D4D0A-26B4-4B79-BF4D-21B7AC0536A6}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F82E25EA-A040-4D7E-A9C1-B39F10A41934}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F6F56C-2BC6-457A-9418-B86C281FB82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F6F56C-2BC6-457A-9418-B86C281FB82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F6F56C-2BC6-457A-9418-B86C281FB82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F6F56C-2BC6-457A-9418-B86C281FB82B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
